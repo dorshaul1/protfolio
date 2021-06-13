@@ -1,0 +1,33 @@
+.main-hero-container {
+    height: 100vh;
+    .main-hero {
+        color: $clr-white;
+        height: 85vh;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 8vh;
+        background-size: cover;
+        h1 {
+            text-shadow: -5px 7px black;
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 75px;
+            margin: 25px;
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        h2 {
+            text-shadow: -5px 4px black;
+            font-size: 2.5rem;
+            font-style: italic;
+            line-height: 40px;
+            margin: 0 ;
+            font-family: "Pacifico", cursive;
+        }
+        a {
+            font-size: 18px;
+            color: white;
+            font-size: 5rem;
+        }
+    }
+}

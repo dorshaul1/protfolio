@@ -1,0 +1,26 @@
+// Setup
+@import 'base/setup/variables';
+@import 'base/setup/functions';
+@import 'base/setup/mixins';
+@import 'base/setup/typography';
+
+// Basics
+@import 'base/basics/helpers';
+@import 'base/basics/layout';
+@import 'base/basics/base';
+@import 'base/basics/scrollbar';
+@import 'base/basics/links';
+@import 'base/basics/buttons';
+@import 'base/basics/inputs';
+@import 'base/basics/forms';
+
+// cmps
+@import './cmps/main-header.scss';
+@import './cmps/main-hero.scss';
+@import './cmps/specialities.scss';
+@import './cmps/protfolio.scss';
+@import './cmps/footer.scss';
+@import './cmps/project-modal.scss';
+
+//views
+@import './views/home.scss';

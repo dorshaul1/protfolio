@@ -1,0 +1,29 @@
+// Colors
+$clr-black:hsl(0, 0%, 10%);
+$clr-white:hsl(0, 0%, 99%);
+$clr-gray-light:hsl(60, 1%, 68%);
+$clr-gray-dark:hsl(180, 4%, 20%);
+$clr-link:#89E5E0;
+// $clr-primary:#019D9D;
+// $clr-primary-hover:rgb(0, 99, 99);
+$clr-primary:#a4cece;
+$clr-primary-opacity:#a4ceceab;
+$clr-primary-hover:#9bc2c2;
+:root{
+    --clr-primary: #ffed49;
+}
+
+$clr1: rgb(231, 231, 231);
+
+$clr-positive:#58b84b;
+$clr-negative: #c95465;
+
+$subtle-flat-shadow:0 2px 0 0 #0000002e;
+$medium-flat-shadow:0 4px 0 0 #0000002e;
+
+// Breakpoints
+$mobile-breakpoint: 460px;
+$narrow-breakpoint: 720px;
+$normal-breakpoint: 960px;
+
+$normal-page-width:85%;
