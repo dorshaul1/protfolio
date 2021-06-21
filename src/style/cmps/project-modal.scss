@@ -35,6 +35,10 @@
         background-color: white;
         border-radius: 7px;
         padding: 0 20px;
+
+        @media only screen and (max-width: $normal-breakpoint) {
+            width: 90%;
+        }
         
         .proj-image{
             width: 90%;

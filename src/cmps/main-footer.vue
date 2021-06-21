@@ -23,9 +23,9 @@
       </div>
       <div class="summary flex column center">
         <p>
-          Full-Stack Web Developer specializing in advanced frameworks,
+          Full-Stack Web Developer specializing in advanced frameworks
           including React, VueJS, Angular, NodeJS and MongoDB.<br />
-          Army service at the Israeli Navy Computer Unit – Mamtam as Cyber
+          Army service at the Israeli Navy Computer Unit – Mamtam as a Cyber
           Security Analyst.<br />
           Passionate about technology, striving to be the best, fast learner,
           and a team player.

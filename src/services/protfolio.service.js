@@ -10,7 +10,7 @@ const projects = [
         name: "Taskolo",
         title: "Project Management Tool",
         desc: "Coding Academy final project  based on Trello. Done with Vue.js, Vuex, MongoDB and web sockets.",
-        url: 'https://taskolo4.herokuapp.com/',
+        url: 'https://taskolo-app.herokuapp.com/board/606056b5f2a2af09afd9f2fb',
         publishedAt: 1622454841,
         imgUrl: 'taskolo',
     },

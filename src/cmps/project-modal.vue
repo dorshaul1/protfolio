@@ -10,7 +10,7 @@
 
       <p>{{ currProj.desc }}</p>
 
-      <a :href="currProj.url">{{ currProj.url }}</a>
+      <a :href="currProj.url" target="_blank">Link to the project</a>
 
     </div>
   </section>
