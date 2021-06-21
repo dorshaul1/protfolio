@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import app from './app.vue'
 import router from './router';
-import { store } from './store'
 import VueSmoothScroll from 'vue2-smooth-scroll'
 import './style/main.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -25,7 +24,6 @@ Vue.mixin({
 
 new Vue({
   router,
-  store,
   render: h => h(app)
 }).$mount('#app')
 
