@@ -4,6 +4,9 @@
     // width: 90%;
     margin: 0 auto;
     padding: 8vh 120px;
+    @media only screen and (max-width: $narrow-breakpoint) {
+        padding: 8vh 10px;
+    }
     // padding-top: 8vh;
 
     .title {
@@ -19,11 +22,17 @@
     }
 
     .footer-main-container {
+        @media only screen and (max-width: $narrow-breakpoint) {
+            flex-direction: column-reverse;
+        }
         .information {
             .image-me {
                 width: 200px;
                 border-radius: 50%;
                 margin-bottom: 20px;
+                @media only screen and (max-width: $narrow-breakpoint) {
+                    width: 150px;
+                }
                 // margin: 0 auto;
             }
             .social-media-container {
@@ -47,6 +56,10 @@
         }
         .summary {
             width: 50%;
+            @media only screen and (max-width: $narrow-breakpoint) {
+                width: 100%;
+                padding: 30px 10px;
+            }
             p {
                 text-align: left;
                 font-size: 1rem;

@@ -6,24 +6,65 @@ header.main-header {
     padding: 0 5%;
     background: rgb(255, 255, 255);
     // padding-top: 0px;
+    .screen{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.226);
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: none;
+        transition: .5s;
+        &.menuOpen{
+            // opacity: 1;
+            display: block;
+        }
+        
+    }
+    .side-menu-btn{
+        width: 35px;
+        cursor: pointer;
+        display: none;
+        @media only screen and (max-width: $normal-breakpoint) {
+            display: block;
+        }
+    }
     nav {
         a {
             color: #233242;
             margin-left: rem(30px);
             font-size: 1.3rem;
             font-weight: 600;
-
+            @media only screen and (max-width: $normal-breakpoint) {
+                margin: 0;
+                margin-bottom: rem(30px);
+                
+            }
             &.router-link-exact-active {
                 color: red;
-                // color: $clr-primary;
+            }
+        }
+        @media only screen and (max-width: $normal-breakpoint) {
+            position: fixed;
+            // top: 8vh;
+            height: 100vh;
+            top: 0;
+            flex-direction: column;
+            background: rgb(255, 255, 255);
+            padding: 50px 30px;
+            overflow: hidden;
+            right: -200px;
+            transition: .5s;
+            &.menuOpen{
+                right: 0;
             }
         }
     }
     .logo {
         color: #233242;
         font-size: 1.8rem;
-        font-family: 'Pacifico', cursive;
-        }
+        font-family: "Pacifico", cursive;
+    }
     .navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;

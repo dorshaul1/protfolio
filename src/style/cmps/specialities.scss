@@ -1,8 +1,8 @@
 .specialities {
     min-height: 100vh;
-    width: 90%;
-    margin: 0 auto;
-    padding: 8vh 0;
+    width: 100%;
+    // margin: 0 auto;
+    padding: 8vh 10px;
 
     .title {
         font-size: 3rem;
@@ -19,46 +19,68 @@
     .skills-container {
         max-width: 1400px;
         .container {
-            width: 550px;
+            max-width: 550px;
+            width: 100%;
         }
         .title {
             font-size: 2rem;
-            // margin-bottom: 1.5rem;
+            width: 100%;
+            // display: none;
+
         }
         .subtitle {
-            // font-family: "Courgette", cursive;
-            // color: $clr-gray-light;
-            // font-weight: 300;
             font-size: 1rem;
             margin-bottom: 1.5rem;
+            width: 100%;
+            // display: none;
+
         }
         .skill {
+            // display: none;
             width: 100px;
+            // padding: 20px;
+            @media only screen and (max-width: $normal-breakpoint) {
+                width: 40%;
+            }
+            // @media only screen and (max-width: $mobile-breakpoint) {
+            //     // width: 100px;
+            //     // width: 180px;
+            //     // margin: 0 auto;
+            // }
             h5 {
                 font-size: 1rem;
-                // width: 100%;
-                // margin-bottom: 0.6rem;
                 margin: 0;
             }
             .skill-logo {
                 background-color: $clr-primary;
                 border-radius: 50%;
                 height: 100px;
-                // width: 100%;
                 width: 100px;
                 margin-bottom: 1rem;
                 padding: 20px;
+                @media only screen and (max-width: $mobile-breakpoint) {
+                    // height: 70px;
+                    // width: 70px;
+                }
             }
             .logo-image {
                 width: 70%;
-                // stroke: white;
-                // fill: white;
-                // z-index: ;
-                // margin: 0;
             }
         }
         .preview-container {
+            // display: none;
             gap: 40px;
+            @media only screen and (max-width: $large-breakpoint) {
+                margin-bottom: 20px;
+            }
+            @media only screen and (max-width: $normal-breakpoint) {
+                gap: 20px;
+            }
+            @media only screen and (max-width: $mobile-breakpoint) {
+                align-items: center;
+                gap: 10px;
+                // width: 400px;
+            }
         }
     }
 }
